@@ -259,9 +259,28 @@ header {
   margin-top: 0;
 }
 
+ 
 @media only screen and (max-width: 800px) {
   .navbar a {
     font-size: 14px;
+  }
+  .navbar svg {
+    width: 270px;
+    height: 40px;
+  }
+
+  .navbar p {
+    font-size: 30px;
+  }
+  .carousel-section {
+    height: 90vh;
+  }
+  .carousel-text {
+    font-size: 30px;
+  }
+  .carousel-buttons svg {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -269,22 +288,155 @@ header {
   .navbar a {
     font-size: 12px;
   }
+  .carousel-section {
+    height: 80vh;
+  }
+  .carousel-text {
+    font-size: 25px;
+  }
+  .carousel-buttons svg {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .navbar a {
     font-size: 10px;
   }
+  .navbar svg {
+    width: 240px;
+    height: 35px;
+  }
+  .places {
+    width: 500px;
+    height: 410px;
+  }
+  .places h4 {
+    font-size: 15px;
+  }
+  .places h2 {
+    font-size: 35px;
+  }
+  .container {
+    height: 200px;
+  }
+  .container h1 {
+    font-size: 25px;
+  }
+  .container h3{
+    font-size: 15px;
+  }
+  .navbar p {
+    font-size: 25px;
+  }
+  .carousel-section {
+    height: 70vh;
+  }
+  .carousel-text {
+    font-size: 20px;
+  }
+  .carousel-buttons svg {
+    width: 60px;
+    height: 60px;
+  }
 }
-
+@media only screen and (max-width: 550px) {
+  .navbar svg {
+    width: 200px;
+    height: 30px;
+  }
+  .places {
+    width: 400px;
+    height: 310px;
+  }
+  .places h4 {
+    font-size: 14px;
+  }
+  .places h2 {
+    font-size: 30px;
+  }
+  .container {
+    height: 150px;
+  }
+  .container h1 {
+    font-size: 20px;
+  }
+  .container h3{
+    font-size: 13px;
+  }
+  .navbar p {
+    font-size: 20px;
+  }
+  .carousel-section {
+    height: 60vh;
+  }
+  .carousel-text {
+    font-size: 15px;
+  }
+  .carousel-buttons svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .map img{
+    width: 470px;
+    height: 570px;
+  }
+  .places h4 {
+    font-size: 13px;
+  }
+  .places h2 {
+    font-size: 28px;
+  }
+}
 @media only screen and (max-width: 450px) {
   .navbar svg {
     width: 160px;
     height: 22px;
   }
-
+  .places h2 {
+    font-size: 26px;
+  }
+  .places h4 {
+    font-size: 12px;
+  }
+  .places {
+    width: 300px;
+    height: 210px;
+  }
+  .reg{
+    font-size: 35px;
+  }
+  .container h1 {
+    font-size: 15px;
+  }
+  .container h3{
+    font-size: 9px;
+  }
+  .map img{
+    width: 400px;
+    height: 500px;
+  }
   .navbar p {
     font-size: 15px;
+  }
+  .carousel-section {
+    height: 50vh;
+  }
+  .carousel-text {
+    font-size: 10px;
+  }
+  .carousel-buttons svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .map img{
+    width: 370px;
+    height:470px;
   }
 }
 
@@ -293,9 +445,26 @@ header {
     width: 150px;
     height: 17px;
   }
-
+  .reg{
+    font-size: 30px;
+  }
+  .map img{
+    width: 300px;
+    height:400px;
+  }
   .navbar p {
     font-size: 12px;
+  }
+
+  .carousel-section {
+    height: 40vh;
+  }
+  .carousel-text {
+    font-size: 10px;
+  }
+  .carousel-buttons svg {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -304,8 +473,20 @@ header {
     width: 110px;
     height: 15px;
   }
-
+  .reg{
+    font-size: 25px;
+  }
   .navbar p {
     font-size: 10px;
+  }
+  .carousel-section {
+    height: 35vh;
+  }
+  .carousel-text {
+    font-size: 7px;
+  }
+  .carousel-buttons svg {
+    width: 25px;
+    height: 25px;
   }
 }
