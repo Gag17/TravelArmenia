@@ -3,6 +3,31 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.loader-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d5d4d4;
+}
+
+.loader {
+  border: 8px solid #35155D;
+  border-radius: 50%;
+  border-top: 8px solid #f3f3f3;
+  width: 50px;
+  height: 50px;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.main-content {
+  display: none;
+}
 
 header {
   /* background-color: #406339; */

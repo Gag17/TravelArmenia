@@ -1,3 +1,8 @@
+setTimeout(function() {
+  document.querySelector('.loader-wrapper').style.display = 'none';
+  document.querySelector('.main-content').style.display = 'block';
+}, 1500);
+
 const images = document.querySelectorAll('.image-carousel img');
 const title = document.getElementById('carousel-title');
 const description = document.getElementById('carousel-description');
